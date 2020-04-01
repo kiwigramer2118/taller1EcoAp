@@ -369,10 +369,7 @@ if(a1>275 && a1<305 && contador ==0  ) {
 		
 		}}
 	public void mousePressed() {
-		if(pantalla==0 && mouseX<500 && mouseX>300 && mouseY<570 && mouseY>200 ) {
-			pantalla=4;
-			
-		}
+		
 		if(pantalla==4 && mouseX<500 && mouseX>300 && mouseY<570 && mouseY>200 ) {
 			pantalla=1;
 			
@@ -465,6 +462,14 @@ if(a1>275 && a1<305 && contador ==0  ) {
 		}
 		
 		
+		
+	}
+	
+	public void mouseReleased() {
+		if(pantalla==0 && mouseX<500 && mouseX>300 && mouseY<570 && mouseY>200 ) {
+			pantalla=4;
+			
+		}
 		
 	}
 
